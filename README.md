@@ -18,12 +18,6 @@ Predefined Views: Start the application with predefined views to see how charact
 
 Feel free to explore and experiment with the project to discover all the possibilities it offers. Enjoy the journey with Demon Slayer Drag and Drop!
 
-## Screenshots
-
-![Drag Drop Destok](./public/images/destok.png)
-
-![Drag Drop Phone](/images/phone.png)
-
 ## Deployment
 
 To deploy this project run
