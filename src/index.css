@@ -7,9 +7,10 @@ body {
   padding: 0;
   background-image: url("/public/images/abstract_japanese_wave_pattern_design_1006.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: repeat;
 }
+
 input::-ms-clear,
 input::-ms-reveal {
   display: none;

@@ -7,7 +7,7 @@ type Columns = {
     [key: string]: Character[];
 };
 
-const maxCharactersPerColumn = 6;
+const maxCharactersPerColumn = 5;
 const initialCharactersPerColumn = 4;
 
 export const Card = () => {
@@ -16,7 +16,7 @@ export const Card = () => {
         column2: character.slice(initialCharactersPerColumn, initialCharactersPerColumn * 2),
         column3: character.slice(initialCharactersPerColumn * 2, initialCharactersPerColumn * 3),
         column4: character.slice(initialCharactersPerColumn * 3, initialCharactersPerColumn * 4),
-        column5: character.slice(initialCharactersPerColumn * 4, initialCharactersPerColumn * 5),
+        column5: character.slice(initialCharactersPerColumn * 4, initialCharactersPerColumn * 5)
     };
 
     const [columns, updateColumns] = useState<Columns>(initialColumns);
@@ -44,7 +44,7 @@ export const Card = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Demon Slayer</h1>
+                <img className='App-logo' src='/public/images/Demon-Slayer-3-1-2024.png' alt='logo' />
             </header>
             <section className="App-section">
                 <DragDropContext onDragEnd={handleOnDragEnd}>
