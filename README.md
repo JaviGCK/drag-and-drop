@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Drag-Drop-Demon
 
-Currently, two official plugins are available:
+This React project utilizes react-beautiful-dnd to enable users to drag and drop characters from the Demon Slayer series between different columns. The application is fully responsive, making it suitable for use on various devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+About the Project: Discover more about the project, its purpose, and the technologies utilized. Gain insights into the implementation of drag-and-drop functionality using react-beautiful-dnd.
 
-- Configure the top-level `parserOptions` property like this:
+Demon Slayer Characters: Explore the list of Demon Slayer characters featured in the project. You can drag and drop these characters between different columns to organize them according to your preferences.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Responsive Design: Enjoy an optimal user experience on various devices, as the project is designed to be completely responsive.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Column Modification: Experiment with the ability to change and organize Demon Slayer characters between different columns, providing an interactive experience.
+
+Predefined Views: Start the application with predefined views to see how characters are initially distributed across the columns.
+
+Feel free to explore and experiment with the project to discover all the possibilities it offers. Enjoy the journey with Demon Slayer Drag and Drop!
+
+## Screenshots
+
+![Drag Drop Destok](./public/images/destok.png)
+
+![Drag Drop Phone](/images/phone.png)
+
+## Deployment
+
+To deploy this project run
+
+https://drag-and-drop-baiz0sg0g-javigcks-projects.vercel.app/
+
+
+## Installation
+
+To install and run the Demon Slayer Drag and Drop project locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/JaviGCK/drag-and-drop.git
+
+Navigate to the project directory:
+
+cd drag-and-drop
+
+Install dependencies using npm:
+
+npm install
+
+Start the development server:
+
+npm start
+
+This will launch the project locally, and you can access it in your web browser at http://localhost:3000.
+
+Now you have the Demon Slayer Drag and Drop project installed and running on your machine. Explore and enjoy organizing the characters with the drag-and-drop feature!
+    
