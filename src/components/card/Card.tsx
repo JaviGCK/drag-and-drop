@@ -44,7 +44,7 @@ export const Card = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <img className='App-logo' src='/public/images/Demon-Slayer-3-1-2024.png' alt='logo' />
+                <img className='App-logo' src='/images/Demon-Slayer-3-1-2024.png' alt='logo' />
             </header>
             <section className="App-section">
                 <DragDropContext onDragEnd={handleOnDragEnd}>
